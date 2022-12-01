@@ -1,0 +1,4 @@
+creation_rules:
+- encrypted_regex: ^(data|stringData)$
+  path_regex: management-clusters/ginger/secrets/.*\.enc\.yaml
+  pgp: 0fe91b80f1c9a4ca8f01ad76f1cc941f246688c2
