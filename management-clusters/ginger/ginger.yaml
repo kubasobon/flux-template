@@ -4,10 +4,6 @@ metadata:
   name: ginger-gitops
   namespace: default
 spec:
-  decryption:
-    provider: sops
-    secretRef:
-      name: sops-gpg-master
   interval: 1m
   path: ./management-clusters/ginger
   prune: false
